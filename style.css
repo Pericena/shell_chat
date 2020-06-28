@@ -1,0 +1,38 @@
+body {
+    
+width: 100%;
+background:black;
+  margin: 0;
+float:left;
+
+}
+textarea {
+	
+    width: 99vw;
+    box-sizing: border-box;
+    height: calc(90vh - 40px);
+    border: none;
+    border-bottom: 1px solid black;
+    background: black;
+    font-size: 15px;
+    color:beige;
+}
+input {
+    /*position: absolute;*/
+    padding: 5px 8px;
+    font-size: 18px;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    width: 99vw;
+}
+
+.upload-msg div{
+{
+  color: red;
+  font-family: courier;
+  font-size: 160%;	
+	
+}
