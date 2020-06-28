@@ -30,7 +30,8 @@
  bash shell.sh
  ```
    ### instalacion windows
-    ```
+   
+ ```
  Descargar xammp
  descargar serveo
  descagar git
