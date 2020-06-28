@@ -2,10 +2,9 @@
 <html>
   <head>
     <title>Chat</title>
-   <!-- <link rel="shortcut icon" href="img/icon.ico">-->
-	<link rel="shortcut icon" href="icon.png">
+   <link rel="icon" type="png" sizes="16x16" href="icon.png">
     <meta name="description" content="Chatshell"/>
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
 
 	
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
