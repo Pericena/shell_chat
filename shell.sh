@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir upload
 export rosa='\033[38;5;207m'
 export rojo='\033[31m'
 export verde='\033[32m'
@@ -11,8 +10,7 @@ export cyan='\033[1;36m'
 export magenta='\033[1;35m'
 export negro='\033[0;30m'
 export gris_oscuro='\033[1;30'
-
-function shell {
+function shell{
 	sleep 0.5
 	clear
 echo -e "${rojo}
@@ -23,7 +21,7 @@ echo -e "${rojo}
   / /| (__| | | | (_| | |_\__ \ | | |  __/ | |
  /_/  \___|_| |_|\__,_|\__|___/_| |_|\___|_|_|
   ______                                      
- |______| https://lpericena.blogspot.com/ "${blanco}
+ |______| https://lpericena.blogspot.com "${blanco}
 }
 #
 # CÓDIGO
@@ -54,18 +52,21 @@ done
 
 case $Opcion_shell in
 	1)
+	        mkdir upload
 		php -S localhost:8080 &>/dev/null &
 		ssh -R 80:localhost:8080 serveo.net
-		termux-open 
+		
 		;;
 	2) 
+	        mkdir upload
 		php -S localhost:8080 &>/dev/null &
-        ngrok http 8080
+                ngrok http 8080
 		;;
 	3)
+	    mkdir upload
 	    php -S localhost:8080 &>/dev/null &
         ssh -R 80:localhost:8080 ssh.localhost.run
-		termux-open 
+		termux-open https://lpericena.blogspot.com 
 		;;
 	
 esac
@@ -99,7 +100,7 @@ done
 
 case $Opcion_Reiniciar in
 	1)
-		source $HOME/shell/shell.sh
+		source $HOME/shell_chat/shell.sh
 		;;
 	2)
 echo -e "${verde}
