@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mkdir upload
 export rosa='\033[38;5;207m'
 export rojo='\033[31m'
 export verde='\033[32m'
