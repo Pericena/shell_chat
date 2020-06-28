@@ -17,6 +17,8 @@
  pkg install git
  git clone https://github.com/Pericena/shell_chat.git
  cd shell_chat
+ chmod 711 shell.sh
+ ./shell.sh
  bash shell.sh
  ```
  
@@ -27,6 +29,8 @@
  apt install git
  git clone https://github.com/Pericena/shell_chat.git
  cd shell_chat
+ chmod 711 shell.sh
+ ./shell.sh
  bash shell.sh
  ```
    ### instalacion windows
